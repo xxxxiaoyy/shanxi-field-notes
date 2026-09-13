@@ -1,0 +1,10 @@
+(()=>{const C=(f,c,credit='Wikimedia Commons')=>({u:'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(f)+'?width=1600',s:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(f),c,credit});
+Object.assign(P.yingxian,{i:[C('20250604 Ying Xian Muta (080826).jpg','整体｜先退远看八角塔身与逐层收分','Yumeto / Wikimedia Commons'),C('20250604 Ying Xian Muta (082825).jpg','结构｜侧面看层层出檐与平座','Yumeto / Wikimedia Commons'),C('应县木塔 释迦佛造像 20260126 162218.jpg','塔内｜宗教空间与释迦佛造像')]});
+Object.assign(P.jingtusi,{i:[C('Jing Tu Temple in Yingxian 2011-07.JPG','大雄宝殿｜净土寺最核心的建筑空间','猫猫的日记本 / Wikimedia Commons'),C('应县净土寺2020 (3).jpg','空间｜院落、殿宇与木作尺度','ScareCriterion12 / Wikimedia Commons'),C('20250604 Jingtu Si (090819).jpg','现场｜从院落进入大雄宝殿')]});
+Object.assign(P.hongfu,{i:[C('Dingxiang Hongfu Si 2013.08.28 14-51-51.jpg','整体｜洪福寺院落与殿堂'),C('洪福寺文殊菩萨.jpg','彩塑｜文殊菩萨造像与神态')]});
+Object.assign(P.nanchan,{i:[C('Wutai 2009 509.jpg','整体｜小体量唐殿、月台与低平屋面','G41rn8 / Wikimedia Commons'),C('Nanchan Temple 1.JPG','正立面｜三开间大殿与院落'),C('Wutai Nanchan Si 2013.08.28 13-34-29.jpg','构造｜近看唐代木构与斗栱')]});
+Object.assign(P.yanqing,{i:[C('延庆寺大佛殿正面.jpg','正立面｜金代大佛殿的体量与屋顶'),C('延庆寺大佛殿梁架.jpg','构造｜梁架与殿内木作')]});
+Object.assign(P.guangji,{i:[C('Wutai Guangji Si 2013.08.28 08-29-19.jpg','整体｜广济寺大雄宝殿与院落'),C('Wutai Guangji Si 2013.08.28 08-45-03.jpg','建筑｜近看大殿木构与檐下层次')]});
+Object.assign(P.jinci,{i:[C('晴天下的晋祠圣母殿.jpg','圣母殿｜先看主殿体量与殿前空间'),C('晋祠圣母殿和鱼沼飞梁.jpg','空间｜鱼沼飞梁连接水面与圣母殿'),C('晋祠圣母殿盘龙柱.jpg','细节｜殿前盘龙柱与木构立面'),C('Jin Temple entrance.JPG','园林｜从入口进入祠庙与水系复合空间')]});
+Object.assign(P.shanxi_museum,{i:[C('2013 Shanxi Provincial Museum, Taiyuan.jpg','建筑｜山西博物院整体外观'),C('Shanxi Museum 2009 Taiyuan 926.jpg','展陈｜佛教造像与馆内观看尺度'),C('Shanxi Museum 2009 Taiyuan 923.jpg','造像｜北齐菩萨像细节'),C('Shanxi Museum 2009 Taiyuan 790.jpg','文物｜青铜器，把时间尺度拉回更早的山西')]});
+})();
