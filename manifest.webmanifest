@@ -1,0 +1,13 @@
+{
+  "name": "山西 · Shanxi Field Notes",
+  "short_name": "山西 Field Notes",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e7",
+  "theme_color": "#f4f0e7",
+  "lang": "zh-CN",
+  "description": "2026 山西十日旅行：古建、彩塑、壁画与石窟。",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
