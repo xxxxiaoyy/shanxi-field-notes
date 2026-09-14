@@ -1,0 +1,1 @@
+Object.assign(P.huayan,{community:{label:"古建参考 / Xiaohongshu",title:"海内孤品 八大辽构之一 华严寺｜踏入这里那一刻，仿佛听……",note:"用于补充华严寺现场空间、建筑细节和作者的观看感受。原帖中的评价性表述保留为标题语境；年代、建筑史定位与文物信息仍以官方及学术资料为准。",url:"https://xhslink.cn/o/1jqw4C5HEeR",copy:"海内孤品 八大辽构之一 华严寺 踏入这里那一刻 仿佛听... https://xhslink.cn/o/1jqw4C5HEeR 复制文字→打开【小红书】→立即查看笔记详情。"}});
