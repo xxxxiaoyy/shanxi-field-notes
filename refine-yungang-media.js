@@ -1,0 +1,1 @@
+Object.assign(P.yungang,{community:{label:"播客 / 小宇宙",title:"Vol. 86 山西往事：从云冈石窟看平城一百年",note:"把它作为云冈石窟的行前历史背景补充：从北魏平城时期切入，帮助把洞窟营造、政治中心与城市历史放回同一条时间线。",url:"https://www.xiaoyuzhoufm.com/episode/69dc4f62e1c507686641d234",copy:"Vol. 86 山西往事：从云冈石窟看平城一百年 https://www.xiaoyuzhoufm.com/episode/69dc4f62e1c507686641d234"}});
