@@ -1,0 +1,2 @@
+const baseOpenDay=od;
+od=function(id){baseOpenDay(id);let d=D.find(x=>x[0]===id),html=d?dayTicketSummary(d):'';if(html){let root=$('#dayc'),anchor=root.querySelector('.day-action-wrap')||root.querySelector('.dayhead');anchor.insertAdjacentHTML('afterend',html);bindTicketSummary(root)}};
