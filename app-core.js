@@ -1,11 +1,11 @@
 let sd="1004",cd="1004";const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];const iu=f=>{if(f&&typeof f==='object')return f.u;return /^https?:/.test(f)?f:'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(f)+'?width=1600'},sp=f=>{if(f&&typeof f==='object')return f.s||f.u;return /^https?:/.test(f)?f:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(f)};
 const ACTIONS={
-"1002":{level:"watch",kind:"预约",dateLabel:"WATCH",item:"北齐壁画博物馆",title:"北齐壁画博物馆预约",note:"国庆客流较高，建议提前完成线上预约；2026年9月起也支持现场售票。10/2与山西博物院AM/PM可互换。"},
+"1002":{level:"urgent",kind:"预约",date:"2026-09-22",dateLabel:"09.22",item:"北齐壁画博物馆",title:"北齐壁画博物馆国庆预约",note:"9/16最新公告：国庆严格实名分时预约，可提前10天预约，约满关闭且原则上不开放临时登记。10/2名额从9/22起关注；与山西博物院AM/PM可互换。"},
 "1003":{level:"urgent",kind:"预约",date:"2026-09-18",dateLabel:"09.18",item:"云冈石窟",title:"云冈石窟预约窗口",note:"按2026年现行提前15日（不含当日）规则，10/3门票预计9/18起可预约；国庆专项规则发布后再次复核。"},
 "1004":{level:"critical",kind:"抢票",date:"2026-09-27",dateLabel:"09.27 20:00",item:"悬空寺登临票",title:"悬空寺登临票",note:"10/4登临票按现行规则有两次线上放票机会：9/27 20:00与9/28 07:20。线上总量有限，第一时间处理。",moments:[{at:"2026-09-27T20:00:00+08:00",label:"20:00"},{at:"2026-09-28T07:20:00+08:00",label:"07:20"}]}
 };
 const BOOKINGS={
-"1002":{channel:"微信公众号",name:"太原北齐壁画博物馆",official:"https://weibo.com/2/detail/5332215332606316",route:"微信搜索并关注“太原北齐壁画博物馆” → 预约购票 / 门票预约 → 选择日期与时段 → 填写实名信息。",tip:"2026年9月起馆方同时支持现场售票；国庆仍建议线上提前处理。"},
+"1002":{channel:"微信公众号",name:"太原北齐壁画博物馆",official:"https://kandian.sina.cn/article_5812119316_15a6de71402001ia3i.html?from=news",route:"微信搜索并关注“太原北齐壁画博物馆” → 预约购票 / 门票预约 → 选择10月2日与时段 → 填写实名信息。",tip:"2026年9月16日最新规则：春节、五一、中秋、国庆实行实名分时预约，可提前10天预约；每日、每时段限量，约满即关闭，原则上不开放临时登记。多数优待人群也需预约；国庆期间一卡通不可使用。"},
 "1003":{channel:"微信小程序",name:"云冈石窟文旅",alt:"云冈研究院",official:"https://www.dt.gov.cn/dt12345/rxdt1/202604/29b73c0aa08148e3baca536eb7166bb9.shtml",route:"微信搜索“云冈石窟文旅”或“云冈研究院” → 门票预约 → 选择10月3日与时段 → 实名购票。",tip:"2026年4月15日起预约周期调整为提前15日（不含当日）。"},
 "1004":{channel:"微信小程序",name:"北岳云游",official:"https://www.byhs.net.cn/Travel_Guide/1.html",latest:"https://www.thepaper.cn/newsDetail_forward_33421772",route:"景点购票 → 景区门票 → 悬空寺景点 → 悬空寺登临门票 → 去预定 → 选择日期/场次 → 添加购票人 → 立即购买。",tip:"登临需同时具备入园票与登临票。普通H5无法可靠直跳微信小程序，页面提供一键复制小程序名和官方票务/放票规则入口。",windows:[{d:"09.27",t:"20:00–23:00",label:"第一批 · 600张"},{d:"09.28",t:"07:20–18:00",label:"第二批 · 600张"}],prep:["提前在“北岳云游”完善购票人信息；开抢前几分钟进入登临票页面并停留等待。","同一手机为多人下单时，同行人员需要依次完成人脸识别，全部通过后才能排队下单。","若五人均购成人票，按景区当前票务页每单成人票数量限制与单账号下单规则，至少提前准备多个账号/手机；异地抢票时每人各自下单最省刷脸时间。","小红书用户实操建议：20:00前进入购买页，看到“请20点后进行购票”时先留在页面，等到放票时点再提交，减少重新进入页面的耗时。","此前官方检票规则明确：上午票可在下午时段继续检票，下午票不能提前到上午使用；2026国庆前再复核是否有专项调整。"]}
 };
