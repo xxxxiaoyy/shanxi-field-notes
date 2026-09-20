@@ -16,9 +16,9 @@ const JOURNEY_RESERVATIONS={
 "0930":[{name:"双林寺 / 镇国寺 / 平遥古城",status:"已开放",level:"watch"}],
 "1001":[{name:"天龙山石窟",status:"已开放",level:"watch"}],
 "1002":[{name:"北齐壁画博物馆",date:"2026-09-22",level:"urgent"},{name:"山西博物院",date:"2026-09-29",level:"urgent"}],
-"1003":[{name:"云冈石窟",date:"2026-09-18",level:"urgent"},{name:"华严寺 / 善化寺",status:"已开放",level:"watch"}],
-"1004":[{name:"悬空寺登临票",at:"2026-09-27T20:00:00+08:00",level:"critical"},{name:"永安寺 / 圆觉寺",date:"2026-09-27",level:"urgent"}],
-"1005":[{name:"应县木塔",status:"提前购票",level:"watch"}],
+"1003":[{name:"云冈石窟",date:"2026-09-18",level:"urgent"},{name:"大同市博物馆（总馆）",date:"2026-09-27",level:"urgent"}],
+"1004":[{name:"悬空寺登临票",at:"2026-09-27T20:00:00+08:00",level:"critical"},{name:"永安寺",date:"2026-09-27",level:"urgent"},{name:"应县木塔",status:"提前购票",level:"watch"}],
+"1005":[{name:"华严寺 / 善化寺",status:"已开放 · 注意闭馆",level:"watch"}],
 "1007":[{name:"晋祠",date:"2026-09-27",level:"urgent"}]
 };
 function cnDayIndex(){let n=new Date(Date.now()+8*3600000);return Math.floor(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate())/86400000)}
